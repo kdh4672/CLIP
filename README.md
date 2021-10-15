@@ -1,3 +1,5 @@
+nohup python fine_tuning.py --category_path clip_data/hive_cat_info_20210207 --train_path clip_data/hive_train_img_w_subword_20210207 --valid_path clip_data/hive_test_img_w_subword_20210207 --test_path clip_data/hive_test_img_w_subword_20210207  &> nohup/ft0_768.out &
+
 # CLIP
 
 [[Blog]](https://openai.com/blog/clip/) [[Paper]](https://arxiv.org/abs/2103.00020) [[Model Card]](model-card.md) [[Colab]](https://colab.research.google.com/github/openai/clip/blob/master/notebooks/Interacting_with_CLIP.ipynb)
